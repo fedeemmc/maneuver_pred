@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -73,10 +72,10 @@ class Config:
     min_elevation_deg: float = 10.0
 
     # ── Sampleo dentro del contacto ──────────────────────────────────────────
-    burn_sample_step_s: float = 10.0     # paso de búsqueda dentro del contacto
+    burn_sample_step_s: float = 60.0     # paso de búsqueda dentro del contacto
 
     # ── Ventana de promedio orbital ───────────────────────────────────────────
-    avg_window_s:  float = 86400.0       # ~media órbita cada lado del burn
+    avg_window_s:  float = 58292.0       # ~media órbita cada lado del burn
     avg_step_s:    float = 10.0
 
     # ── Pesos de la función objetivo ─────────────────────────────────────────
